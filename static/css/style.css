@@ -1,0 +1,40 @@
+body {
+    background-color: #1c1c1c;
+}
+
+#logo {
+    background-color: hsl(208,24%,15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    margin: 3rem 0rem;
+}
+
+#forum-tabs li {
+    display: inline;
+}
+
+#forum-tabs a {
+    background-color: #2c2c2c;
+    padding: .25rem;
+    margin: 0rem .4rem;
+    border-radius: 2px;
+    color: #e7e7e7;
+}
+
+#index {
+    display: flex;
+    justify-content: space-between;
+}
+
+thead {
+    background-color: hsl(208,43%,26%);
+}
+
+tr {
+    border: 10px solid #e7e7e7;
+    border-top: 10px solid #e7e7e7 !important;
+}
